@@ -282,7 +282,7 @@ const UseStateObject = () => {
     age: 24,
     hobby: 'read books',
   });
-
+  
   const displayPerson = () => {
     setPerson({ name: 'john', age: 28, hobby: 'scream at the computer' });
     // be careful, don't overwrite
