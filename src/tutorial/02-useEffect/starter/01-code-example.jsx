@@ -3,7 +3,7 @@ import { useState } from "react";
 const CodeExample = () => {
   const [value, setValue] = useState(0);
   const sayHello = () => {
-    console.log("Holla Oy!!");
+    // console.log("Holla Oy!!");
   };
   sayHello();
   return (
